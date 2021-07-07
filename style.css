@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading{
+    font-size: 80px;
+    color: black;
+}
+/* COUNTER PART */
+
+.counter{
+    height: 280px;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#count{
+    font-size: 90px;
+    text-align: center;
+}
+
+#values{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inc{
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    font-size: 50px;
+    
+}
+
+.inc:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.reset{
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.reset:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 4px solid rgb(255, 0, 200);
+}
+.dec{
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    font-size: 50px;
+    
+}
+
+.dec:hover{
+    background-color: whitesmoke;
+    color: black;
+}
